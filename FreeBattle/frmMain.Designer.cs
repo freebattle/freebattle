@@ -38,9 +38,9 @@
             this.btnSetting = new System.Windows.Forms.Button();
             this.btnControlPanel = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pnlView = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.lblFunc = new System.Windows.Forms.Label();
-            this.pnlView = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -153,6 +153,16 @@
             this.panel3.Size = new System.Drawing.Size(562, 334);
             this.panel3.TabIndex = 2;
             // 
+            // pnlView
+            // 
+            this.pnlView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlView.Font = new System.Drawing.Font("SimSun", 9F);
+            this.pnlView.Location = new System.Drawing.Point(0, 40);
+            this.pnlView.Name = "pnlView";
+            this.pnlView.Padding = new System.Windows.Forms.Padding(3);
+            this.pnlView.Size = new System.Drawing.Size(562, 294);
+            this.pnlView.TabIndex = 1;
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.InactiveCaption;
@@ -172,16 +182,6 @@
             this.lblFunc.TabIndex = 0;
             this.lblFunc.Text = "控制面板";
             // 
-            // pnlView
-            // 
-            this.pnlView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlView.Font = new System.Drawing.Font("宋体", 9F);
-            this.pnlView.Location = new System.Drawing.Point(0, 40);
-            this.pnlView.Name = "pnlView";
-            this.pnlView.Padding = new System.Windows.Forms.Padding(3);
-            this.pnlView.Size = new System.Drawing.Size(562, 294);
-            this.pnlView.TabIndex = 1;
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -190,12 +190,14 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMain_FormClosed);
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

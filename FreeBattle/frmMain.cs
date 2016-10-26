@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -59,5 +60,17 @@ namespace FreeBattle
             pnlView.Controls.Clear();
             pnlView.Controls.Add(cp);
         }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            func.Init();            
+            func.InstLsp("Initlsp.dll");
+        }
+
+        private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            func.unInstLsp();
+        }
+
     }
 }

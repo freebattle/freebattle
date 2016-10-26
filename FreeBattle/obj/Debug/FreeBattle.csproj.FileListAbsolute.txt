@@ -13,3 +13,12 @@ E:\dev\FreeBattle\FreeBattle\obj\Debug\FreeBattle.ucBuy.resources
 d:\Users\wxma.CN1\Desktop\完整源码\FreeBattle\FreeBattle\bin\Debug\FreeBattle.exe.config
 d:\Users\wxma.CN1\Desktop\完整源码\FreeBattle\FreeBattle\obj\Debug\FreeBattle.exe
 d:\Users\wxma.CN1\Desktop\完整源码\FreeBattle\FreeBattle\obj\Debug\FreeBattle.pdb
+d:\Users\wxma.CN1\Desktop\完整源码\FreeBattle\FreeBattle\bin\Debug\FreeBattle.exe
+d:\Users\wxma.CN1\Desktop\完整源码\FreeBattle\FreeBattle\bin\Debug\FreeBattle.pdb
+d:\Users\wxma.CN1\Desktop\完整源码\FreeBattle\FreeBattle\obj\Debug\FreeBattle.frmLogin.resources
+d:\Users\wxma.CN1\Desktop\完整源码\FreeBattle\FreeBattle\obj\Debug\FreeBattle.frmMain.resources
+d:\Users\wxma.CN1\Desktop\完整源码\FreeBattle\FreeBattle\obj\Debug\FreeBattle.Properties.Resources.resources
+d:\Users\wxma.CN1\Desktop\完整源码\FreeBattle\FreeBattle\obj\Debug\FreeBattle.ucBuy.resources
+d:\Users\wxma.CN1\Desktop\完整源码\FreeBattle\FreeBattle\obj\Debug\FreeBattle.ucControlPanel.resources
+d:\Users\wxma.CN1\Desktop\完整源码\FreeBattle\FreeBattle\obj\Debug\FreeBattle.ucSetting.resources
+d:\Users\wxma.CN1\Desktop\完整源码\FreeBattle\FreeBattle\obj\Debug\FreeBattle.csproj.GenerateResource.Cache
